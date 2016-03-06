@@ -17,7 +17,7 @@ a:focus a:hover {
 a:active a:hover {
   outline: 0;
 }
-
+ 
 .sidebar-module {
   margin: 0 -15px 15px;
 }
@@ -51,4 +51,10 @@ a:active a:hover {
 
 /* any style customization must be before the bootstrap import */
 @import "bootstrap";
+
+h1 {
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 800;
+}
 
